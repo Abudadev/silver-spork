@@ -1,0 +1,22 @@
+body{
+    font-family: tahoma;
+}
+
+canvas{
+    margin-top: 325px;
+    border-radius: 20px;
+    border: 3px black dashed;
+    animation-name: animate;
+    animation-duration: 3.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animate{
+    from{
+        box-shadow: 5px 10px 5px rgb(115, 115, 116);
+    }
+
+    to{
+        box-shadow: 5px 10px 5px white;
+    }
+}
